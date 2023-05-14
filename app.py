@@ -46,7 +46,7 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
    st.image("heart-attack-signs-chest-discomfort.svg")
-   st.markdown("<h5 style='text-align: center; color: #d91002;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Pressure, squeezing, fullness or pain, burning or heaviness</p>", unsafe_allow_html=True)
    
 with col2:
@@ -55,7 +55,7 @@ with col2:
    
 with col3:
    st.image("heart-attack-signs-upper-body-discomfort.svg")
-   st.markdown("<h5 style='text-align: center; color: #d91002;'>Upper body discomfort</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Upper body discomfort</h5>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Neck, jaw, shoulder, arms, back</p>", unsafe_allow_html=True)
 
 with col4:
@@ -64,7 +64,7 @@ with col4:
 
 with col5:
    st.image("heart-attack-signs-shortness-of-breath.svg")
-   st.markdown("<h5 style='text-align: center; color: #d91002;'>Shortness of breath</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Shortness of breath</h5>", unsafe_allow_html=True)
    
 with col6:
    st.image("heart-attack-signs-light-headedness.svg")
@@ -87,7 +87,7 @@ st.write(" ")
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
-   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>1. Call 1-1-2</h3>", unsafe_allow_html=True)
+   st.markdown("<h3 style='text-align: center; color: #d91002;'>1. Call 1-1-2</h3>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Or your local emergency number Immediately. Emergency personnel can start treatment enroute to the hospital.</p>", unsafe_allow_html=True)
     
 with col2:
@@ -95,7 +95,7 @@ with col2:
    st.write("<p style='text-align: center; color: #2a2b2a;'>Sit or lie down, in whatever position is most comfortable.</p>", unsafe_allow_html=True)   
     
 with col3:
-   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>3. Take your nitroglycerin</h3>", unsafe_allow_html=True)
+   st.markdown("<h3 style='text-align: center; color: #d91002;'>3. Take your nitroglycerin</h3>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>If you take nitroglycerin, take your normal dosage.</p>", unsafe_allow_html=True)      
 
 with col4:
@@ -103,7 +103,7 @@ with col4:
    st.write("<p style='text-align: center; color: #2a2b2a;'>Chew and swallow ASA (Aspirin), if you are not allergic or intolerant (either one 325 mg tablet or two 81 mg tablets).</p>", unsafe_allow_html=True)        
     
 with col5:
-   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>5. Rest and wait</h3>", unsafe_allow_html=True)
+   st.markdown("<h3 style='text-align: center; color: #d91002;'>5. Rest and wait</h3>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Stay calm while waiting for help to arrive.</p>", unsafe_allow_html=True)      
     
 with col6:
