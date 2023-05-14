@@ -18,6 +18,7 @@ with cent_co:
     #st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
     st.image("https://www.cardio.com/hubfs/human%20heart%20illustration.jpeg")
 
+st.write(" ")
 
 col1, col2 = st.columns(2)
 
