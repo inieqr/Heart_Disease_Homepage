@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
+# st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
 
 # # Set the page title
 # with st.container():
@@ -10,6 +10,9 @@ st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Predi
 # Add a picture
 # st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
 st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
+
+st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
+
 
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
