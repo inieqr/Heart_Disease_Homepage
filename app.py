@@ -129,11 +129,12 @@ def open_page2(url):
     html(open_script) 
     
 # Add textual information
-st.markdown("<h1 style='text-align: center; color: red;'>To Learn More About Heart Disease, Click the button below.</h1>", unsafe_allow_html=True)
-st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
+st.markdown("<h1 style='text-align: left; color: red;'>To Learn More About Heart Disease, Click the button below.</h1>", unsafe_allow_html=True)
+st.button('Learn More', on_click=open_page2, args=('https://www.medicalnewstoday.com/articles/237191',))
 
-st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Know your Heart Disease status using our machine learning model</h1>", unsafe_allow_html=True)
-st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
+st.markdown("<h2 style='text-align: left; color: #2a2b2a;'>Know your Heart Disease status using our machine learning model</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: left; color: #2a2b2a;'>Click the button below</h1>", unsafe_allow_html=True)
+st.button('Check my status', on_click=open_page1, args=('https://heartygo.streamlit.app/',))
 
 
 # Add buttons
