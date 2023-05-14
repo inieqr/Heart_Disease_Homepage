@@ -16,7 +16,7 @@ from streamlit.components.v1 import html
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     #st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
-    st.image("https://www.ottawaheart.ca/sites/default/files/images/the-beat/2021/the-beat-methylglyoxal.jpg")
+    st.image("https://www.cardio.com/hubfs/human%20heart%20illustration.jpeg")
 
     
 col1, col2 = st.columns(2)
