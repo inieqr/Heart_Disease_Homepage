@@ -6,14 +6,13 @@ from streamlit.components.v1 import html
 # # Set the page title
 # with st.container():
 #   st.title("COVID-19 Prediction App")
+st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
 
 # Add a picture
 #st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
 #st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
 st.image("https://www.lenmed.co.za/wp-content/uploads/How-do-you-know-if-you-are-having-a-heart-attack.png")
 
-
-st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
 
 
 # Add textual information
