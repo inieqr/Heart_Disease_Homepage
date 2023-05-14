@@ -24,6 +24,14 @@ with col1:
 with col2:
    st.markdown("<h1 style='text-align: center; color: #2a2b2a;'> </h4>", unsafe_allow_html=True)
 
+col1, col2 = st.columns(2)
+
+with col1:
+   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>What is heart disease?</h1>", unsafe_allow_html=True)
+with col2:
+   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'> </h4>", unsafe_allow_html=True)
+   st.write("Heart disease is a general term that means the heart is not working properly. Some forms of heart disease are present at birth (congenital heart disease), while others develop as we age. Many forms of heart disease can be prevented by living an active, healthy lifestyle.")
+
 
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
