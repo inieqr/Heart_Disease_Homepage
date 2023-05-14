@@ -44,7 +44,7 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
    st.image("https://www.heartandstroke.ca/-/media/images/heart/heart-attack-signs-chest-discomfort.svg?rev=6001b82d00e3403ba48e70d2e26c4a76&la=en&hash=CEE6DF0998D7716E999FAD55735EFA32")
    st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
-    st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
    
 with col2:
    st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Human Contact</h4>", unsafe_allow_html=True)
