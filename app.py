@@ -11,9 +11,11 @@ st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Predi
 # Add a picture
 #st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
 #st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
-st.image("https://www.lenmed.co.za/wp-content/uploads/How-do-you-know-if-you-are-having-a-heart-attack.png")
+#st.image("https://www.lenmed.co.za/wp-content/uploads/How-do-you-know-if-you-are-having-a-heart-attack.png")
 
-
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image("https://www.lenmed.co.za/wp-content/uploads/How-do-you-know-if-you-are-having-a-heart-attack.png")
 
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
