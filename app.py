@@ -40,7 +40,7 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
    st.image("heart-attack-signs-chest-discomfort.svg")
    st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
-   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Pressure, squeezing, fullness or pain, burning or heaviness</p>", unsafe_allow_html=True)
    
 with col2:
    st.image("heart-attack-signs-sweating.svg")
