@@ -40,6 +40,7 @@ with col2:
   
 st.write(" ")
 st.write(" ") 
+st.write(" ")
     
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
@@ -69,6 +70,10 @@ with col6:
    st.image("heart-attack-signs-light-headedness.svg")
    st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Light-headedness</h5>", unsafe_allow_html=True)
    
+st.write(" ")
+st.write(" ") 
+st.write(" ")
+
 col1, col2 = st.columns(2)
 
 with col1:
