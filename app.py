@@ -18,13 +18,6 @@ with cent_co:
     #st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
     st.image("https://www.cardio.com/hubfs/human%20heart%20illustration.jpeg")
 
-    
-col1, col2 = st.columns(2)
-
-with col1:
-   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>Heart Disease</h1>", unsafe_allow_html=True)
-with col2:
-   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'> </h4>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
