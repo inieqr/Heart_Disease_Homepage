@@ -8,8 +8,8 @@ from streamlit.components.v1 import html
 #   st.title("COVID-19 Prediction App")
 
 # Add a picture
-# st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
-st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
+st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
+#st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
 
 st.markdown("<h1 style='text-align: center; color: #474646;'>Heart Disease Prediction</h1>", unsafe_allow_html=True)
 
