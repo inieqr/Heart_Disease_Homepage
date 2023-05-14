@@ -49,7 +49,7 @@ with col2:
 with col3:
    st.image("heart-attack-signs-upper-body-discomfort.svg")
    st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Upper body discomfort</h5>", unsafe_allow_html=True)
-   st.write("Neck, jaw, shoulder, arms, back")
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Neck, jaw, shoulder, arms, back</p>", unsafe_allow_html=True)
 
 with col4:
    st.image("heart-attack-signs-nausea.svg")
@@ -63,6 +63,13 @@ with col6:
    st.image("heart-attack-signs-light-headedness.svg")
    st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Light-headedness</h5>", unsafe_allow_html=True)
    
+col1, col2 = st.columns(2)
+
+with col1:
+   st.write("<h1 style='text-align: center; color: #d91002;'>What is heart disease?</h1>", unsafe_allow_html=True)
+with col2:
+   st.write("<h4 style='text-align: left; color: #2a2b2a;'>Heart disease is a general term that means the heart is not working properly. Some forms of heart disease are present at birth, while others develop as we age. Many forms of heart disease can be prevented by living an active, healthy lifestyle.</h4>", unsafe_allow_html=True)
+      
     
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
