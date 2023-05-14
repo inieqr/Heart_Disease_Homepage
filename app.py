@@ -47,14 +47,30 @@ with col1:
    st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
    
 with col2:
-   st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Human Contact</h4>", unsafe_allow_html=True)
-   st.image("https://contact-centres.com/wp-content/uploads/2018/05/human-touch-image-may-2018.jpg")
-   st.write("Any person who was within 6 feet of an infected person for at least 15 minutes, starting from 2 days before illness")
+   st.image("heart-attack-signs-chest-discomfort.svg")
+   st.markdown("<h5 style='text-align: left; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
    
 with col3:
-   st.markdown("<h4 style='text-align: center; color: #2a2b2a;'>Contaminated Surfaces</h4>", unsafe_allow_html=True)
-   st.image("https://static01.nyt.com/images/2020/05/27/well/well-surfaces-door/well-surfaces-door-mobileMasterAt3x-v3.jpg?quality=75&auto=webp&disable=upscale&width=1200")
-   st.write("Touching a surface or object on which there is a virus, and then touching your own mouth, nose, or your eyes")    
+   st.image("heart-attack-signs-chest-discomfort.svg")
+   st.markdown("<h5 style='text-align: left; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+
+with col4:
+   st.image("heart-attack-signs-chest-discomfort.svg")
+   st.markdown("<h5 style='text-align: left; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+
+with col5:
+   st.image("heart-attack-signs-chest-discomfort.svg")
+   st.markdown("<h5 style='text-align: left; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+   
+with col6:
+   st.image("heart-attack-signs-chest-discomfort.svg")
+   st.markdown("<h5 style='text-align: left; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.write("Pressure, squeezing, fullness or pain, burning or heaviness")
+   
     
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
