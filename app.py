@@ -70,6 +70,8 @@ with col1:
 with col2:
    st.write("<h4 style='text-align: left; color: #2a2b2a;'>Thousands of Nigerians die from heart attacks each year. Recognize the signs. Act quickly.</h4>", unsafe_allow_html=True)
       
+st.write(" ")
+    
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
