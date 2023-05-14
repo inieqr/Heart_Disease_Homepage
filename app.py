@@ -19,6 +19,7 @@ with cent_co:
     st.image("https://www.cardio.com/hubfs/human%20heart%20illustration.jpeg")
 
 st.write(" ")
+st.write(" ")
 
 col1, col2 = st.columns(2)
 
@@ -26,7 +27,10 @@ with col1:
    st.write("<h1 style='text-align: center; color: #d91002;'>What is heart disease?</h1>", unsafe_allow_html=True)
 with col2:
    st.write("<h4 style='text-align: left; color: #2a2b2a;'>Heart disease is a general term that means the heart is not working properly. Some forms of heart disease are present at birth, while others develop as we age. Many forms of heart disease can be prevented by living an active, healthy lifestyle.</h4>", unsafe_allow_html=True)
-  
+
+st.write(" ")
+st.write(" ")
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -34,7 +38,9 @@ with col1:
 with col2:
    st.write("<h4 style='text-align: left; color: #2a2b2a;'>Signs can vary and may be different for men and women. If you experience any of these signs, call your local emergency number immediately.</h4>", unsafe_allow_html=True)
   
-
+st.write(" ")
+st.write(" ") 
+    
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
