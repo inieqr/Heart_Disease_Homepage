@@ -68,13 +68,33 @@ col1, col2 = st.columns(2)
 with col1:
    st.markdown("""<h1 style='text-align: center; color: #2a2b2;'>Experiencing the signs?</h1>""", unsafe_allow_html=True)
 with col2:
-   st.write("<h4 style='text-align: left; color: #2a2b2a;'>Thousands of people die from heart attacks each year. Recognize the signs. Act quickly.</h4>", unsafe_allow_html=True)
+   st.write("<h4 style='text-align: left; color: #2a2b2a;'>Thousands of Nigerians die from heart attacks each year. Recognize the signs. Act quickly.</h4>", unsafe_allow_html=True)
       
 col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
    st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>1. Call 1-1-2</h3>", unsafe_allow_html=True)
-   st.write("<p style='text-align: center; color: #2a2b2a;'>Pressure, squeezing, fullness or pain, burning or heaviness</p>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Or your local emergency number Immediately. Emergency personnel can start treatment enroute to the hospital.</p>", unsafe_allow_html=True)
+    
+with col2:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>2. Stop all activity</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Sit or lie down, in whatever position is most comfortable.</p>", unsafe_allow_html=True)   
+    
+with col3:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>3. Take your nitroglycerin</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>If you take nitroglycerin, take your normal dosage.</p>", unsafe_allow_html=True)      
+
+with col4:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>4. Take ASA (Aspirin)</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Chew and swallow ASA (Aspirin), if you are not allergic or intolerant (either one 325 mg tablet or two 81 mg tablets).</p>", unsafe_allow_html=True)        
+    
+with col5:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>5. Rest and wait</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Stay calm while waiting for help to arrive.</p>", unsafe_allow_html=True)      
+    
+with col6:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>6. Keep a list of your medications in your wallet and by the phone</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Emergency personnel will want this information.</p>", unsafe_allow_html=True)      
     
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
