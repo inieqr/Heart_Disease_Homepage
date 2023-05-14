@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-st.markdown("<h1 style='text-align: center; color: black;'>Heart Disease Prediction Web Application</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>Heart Disease Prediction Web Application</h1>", unsafe_allow_html=True)
 #st.title("Heart Disease Prediction")
 
 # # Set the page title
