@@ -9,13 +9,13 @@ from streamlit.components.v1 import html
 #   st.title("COVID-19 Prediction App")
 
 # Add a picture
-st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg", width=500)
+#st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg", width=500)
 #st.image("https://cdn.analyticsvidhya.com/wp-content/uploads/2018/08/health.jpg")
 #st.image("https://www.lenmed.co.za/wp-content/uploads/How-do-you-know-if-you-are-having-a-heart-attack.png")
 
-# left_co, cent_co,last_co = st.columns(3)
-# with cent_co:
-#     st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image("https://editor.analyticsvidhya.com/uploads/95051Cardiovascular-Disease.jpg")
     
 col1, col2 = st.columns(2)
 
