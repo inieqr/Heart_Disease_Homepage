@@ -36,7 +36,7 @@ col1, col2 = st.columns(2)
 with col1:
    st.write("<h1 style='text-align: center; color: #2a2b2a;'>Signs of a heart attack</h1>", unsafe_allow_html=True)
 with col2:
-   st.write("<h4 style='text-align: left; color: #2a2b2a;'>Signs can vary and may be different for men and women. If you experience any of these signs, call your local emergency number immediately.</h4>", unsafe_allow_html=True)
+   st.write("<h4 style='text-align: left; color: #d91002;'>Signs can vary and may be different for men and women. If you experience any of these signs, call your local emergency number immediately.</h4>", unsafe_allow_html=True)
   
 st.write(" ")
 st.write(" ") 
