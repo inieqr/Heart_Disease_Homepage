@@ -100,6 +100,12 @@ with col6:
    st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>6. Keep a list of your medications in your wallet and by the phone</h3>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Emergency personnel will want this information.</p>", unsafe_allow_html=True)      
     
+    
+url = "https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py"
+st.write("check out this [link](%s)" % url)
+
+st.markdown("check out this [link](%s)" % url)    
+    
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Coronavirus</h1>", unsafe_allow_html=True)
