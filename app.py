@@ -20,16 +20,16 @@ with cent_co:
 col1, col2 = st.columns(2)
 
 with col1:
-   st.markdown("<h1 style='text-align: left; color: #2a2b2a;'>Heart Disease</h1>", unsafe_allow_html=True)
+   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'>Heart Disease</h1>", unsafe_allow_html=True)
 with col2:
-   st.markdown("<h1 style='text-align: right; color: #2a2b2a;'> </h4>", unsafe_allow_html=True)
+   st.markdown("<h1 style='text-align: center; color: #2a2b2a;'> </h4>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 
 with col1:
-   st.markdown("<h1 style='text-align: left; color: #2a2b2a;'>What is heart\n disease?</h1>", unsafe_allow_html=True)
+   st.markdown("<h1 style='text-align: center; color: red;'>What is heart\n disease?</h1>", unsafe_allow_html=True)
 with col2:
-   st.markdown("<h4 style='text-align: right; color: #2a2b2a;'>Heart disease is a general term that means the heart is not working properly. Some forms of heart disease are present at birth (congenital heart disease), while others develop as we age. Many forms of heart disease can be prevented by living an active, healthy lifestyle.</h4>", unsafe_allow_html=True)
+   st.markdown("<h4 style='text-align: left; color: #2a2b2a;'>Heart disease is a general term that means the heart is not working properly. Some forms of heart disease are present at birth (congenital heart disease), while others develop as we age. Many forms of heart disease can be prevented by living an active, healthy lifestyle.</h4>", unsafe_allow_html=True)
   
 
 
