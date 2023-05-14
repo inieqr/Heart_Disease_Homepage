@@ -46,7 +46,7 @@ col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
    st.image("heart-attack-signs-chest-discomfort.svg")
-   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Chest discomfort</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #d91002;'>Chest discomfort</h5>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Pressure, squeezing, fullness or pain, burning or heaviness</p>", unsafe_allow_html=True)
    
 with col2:
@@ -55,7 +55,7 @@ with col2:
    
 with col3:
    st.image("heart-attack-signs-upper-body-discomfort.svg")
-   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Upper body discomfort</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #d91002;'>Upper body discomfort</h5>", unsafe_allow_html=True)
    st.write("<p style='text-align: center; color: #2a2b2a;'>Neck, jaw, shoulder, arms, back</p>", unsafe_allow_html=True)
 
 with col4:
@@ -64,7 +64,7 @@ with col4:
 
 with col5:
    st.image("heart-attack-signs-shortness-of-breath.svg")
-   st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Shortness of breath</h5>", unsafe_allow_html=True)
+   st.markdown("<h5 style='text-align: center; color: #d91002;'>Shortness of breath</h5>", unsafe_allow_html=True)
    
 with col6:
    st.image("heart-attack-signs-light-headedness.svg")
