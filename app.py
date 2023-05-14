@@ -70,6 +70,11 @@ with col1:
 with col2:
    st.write("<h4 style='text-align: left; color: #2a2b2a;'>Thousands of people die from heart attacks each year. Recognize the signs. Act quickly.</h4>", unsafe_allow_html=True)
       
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+with col1:
+   st.markdown("<h3 style='text-align: center; color: #2a2b2a;'>1. Call 1-1-2</h3>", unsafe_allow_html=True)
+   st.write("<p style='text-align: center; color: #2a2b2a;'>Pressure, squeezing, fullness or pain, burning or heaviness</p>", unsafe_allow_html=True)
     
 # Add textual information
 st.markdown("<h1 style='text-align: center; color: red;'>What Is Covid-19</h1>", unsafe_allow_html=True)
