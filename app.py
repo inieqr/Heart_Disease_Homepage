@@ -111,19 +111,6 @@ with col6:
    st.write("<p style='text-align: center; color: #2a2b2a;'>Emergency personnel will want this information.</p>", unsafe_allow_html=True)      
     
     
-url = "https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py"
-st.write("check out this [link](%s)" % url)
-
-st.markdown("check out this [link](%s)" % url)    
-    
-# Add textual information
-st.markdown("<h1 style='text-align: center; color: red;'></h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Coronavirus</h1>", unsafe_allow_html=True)
-st.write("Coronaviruses are a large family of viruses that are known to cause diseases ranging from colds to more severe diseases such as Middle Eastern respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS). Symptoms of COVID-19 are similar to those of a cold at first. However, the disease can cause severe pneumonia, which can be fatal.")
-
-st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Contagion</h1>", unsafe_allow_html=True)
-st.write("COVID-19 is spread primarily when people are in close contact and one person inhales small drops produced by an infected person when coughing, sneezing or talking.")
-
 # Add buttons
 def open_page1(url):
     open_script= """
@@ -139,9 +126,15 @@ def open_page2(url):
             window.open('%s', '_blank').focus();
         </script>
     """ % (url)
-    html(open_script)
-   
-st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19 status today with our machine learning model. Click 'Check my status' to know your COVID 19 status and 'Learn More' to know more about COVID 19.</h5>", unsafe_allow_html=True)
+    html(open_script) 
+    
+# Add textual information
+st.markdown("<h1 style='text-align: center; color: red;'>To Learn More About Heart Disease, Click the button below.</h1>", unsafe_allow_html=True)
+st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
+
+st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Know your Heart Disease status using our machine learning model</h1>", unsafe_allow_html=True)
+st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
+
 
 # Add buttons
 #col1, col2 = st.beta_columns(2)
@@ -151,8 +144,6 @@ st.markdown("<h5 style='text-align: center; color: #2a2b2a;'>Check your COVID-19
 #    st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
-st.button('Check my status', on_click=open_page1, args=('https://predictcovidgo.streamlit.app/',))
-st.button('Learn More', on_click=open_page2, args=('https://my.clevelandclinic.org/health/diseases/21214-coronavirus-covid-19',))
 
 
 # # Display the page
