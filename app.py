@@ -66,7 +66,7 @@ with col6:
 col1, col2 = st.columns(2)
 
 with col1:
-   st.write("""<h1 style='text-align: center; color: #2a2b2;'>Experiencing \n
+   st.text_area("""<h1 style='text-align: center; color: #2a2b2;'>Experiencing \n
                                                                 signs of a \n
                                                                 heart attack? \n</h1>""", unsafe_allow_html=True)
 with col2:
