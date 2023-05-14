@@ -107,7 +107,7 @@ st.write("check out this [link](%s)" % url)
 st.markdown("check out this [link](%s)" % url)    
     
 # Add textual information
-st.markdown("<h1 style='text-align: center; color: red;'>Click Here To Learn More [link](%s) % url</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: red;'>Click Here To Learn More</h1>"  [link](%s) % url, unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: #2a2b2a;'>Coronavirus</h1>", unsafe_allow_html=True)
 st.write("Coronaviruses are a large family of viruses that are known to cause diseases ranging from colds to more severe diseases such as Middle Eastern respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS). Symptoms of COVID-19 are similar to those of a cold at first. However, the disease can cause severe pneumonia, which can be fatal.")
 
